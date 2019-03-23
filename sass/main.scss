@@ -1,0 +1,13 @@
+// Use @mixin for reuse
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin row {
+  flex-direction: row;
+}
+
+@mixin column {
+  flex-direction: column;
+}
