@@ -3,7 +3,8 @@
   "description": "Portfolio website",
   "version": "",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0"
   },
   "dependencies": {
     "gulp-sass": "^4.0.2"
