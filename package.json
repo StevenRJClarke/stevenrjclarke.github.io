@@ -1,5 +1,8 @@
 {
   "name": "",
   "description": "Portfolio website",
-  "version": ""
+  "version": "",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
