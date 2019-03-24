@@ -1,7 +1,11 @@
 // Use @mixin for reuse
+
+// Display mixin
 @mixin flex {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 @mixin row {
@@ -10,4 +14,35 @@
 
 @mixin column {
   flex-direction: column;
+}
+
+// Width mixin
+@mixin half {
+  width: 50%;
+}
+
+.container {
+  @include flex;
+  @include column;
+}
+
+.top-box {
+  @include flex;
+  @include row;
+
+  padding: 8em 0;
+
+  div {
+    @include flex;
+    @include half;
+
+    img {
+      border-radius: 50%;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin: 0.5em;
+    }
+  }
 }
