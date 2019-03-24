@@ -17,6 +17,10 @@
 }
 
 // Width mixin
+@mixin full-width {
+  width: 100%;
+}
+
 @mixin half {
   width: 50%;
 }
@@ -24,6 +28,7 @@
 .container {
   @include flex;
   @include column;
+  @include full-width;
 }
 
 .top-box {
@@ -45,4 +50,21 @@
       margin: 0.5em;
     }
   }
+}
+
+.projects-1, .projects-4, .projects-6 {
+  @include flex;
+  @include row;
+  @include full-width;
+
+  div {
+    @include flex;
+    @include half;
+  }
+}
+
+.projects-2, .projects-3, .projects-5 {
+  @include flex;
+  @include row;
+  @include full-width;
 }
