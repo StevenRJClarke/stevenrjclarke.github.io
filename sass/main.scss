@@ -57,7 +57,7 @@
   @include row;
   @include full-width;
 
-  div {
+  a {
     @include flex;
     @include half;
   }
@@ -67,4 +67,9 @@
   @include flex;
   @include row;
   @include full-width;
+
+  a {
+    @include flex;
+    @include full-width;
+  }
 }
