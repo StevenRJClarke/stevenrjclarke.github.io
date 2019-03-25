@@ -81,7 +81,9 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 50%; }
+    width: 50%;
+    color: black;
+    text-decoration: none; }
 
 .projects-2, .projects-3, .projects-5 {
   -webkit-box-align: center;
@@ -112,4 +114,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 100%; }
+    width: 100%;
+    color: black;
+    text-decoration: none; }
