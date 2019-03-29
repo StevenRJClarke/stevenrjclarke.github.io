@@ -1,3 +1,8 @@
+// Use variables
+
+// Responsive
+$max-width: 800px;
+
 // Use @mixin for reuse
 
 // Display mixin
@@ -67,6 +72,10 @@
     @include flex;
     @include half;
     @include no-link-format;
+
+    @media screen and (max-width: $max-width) {
+      @include full-width;
+    }
   }
 }
 

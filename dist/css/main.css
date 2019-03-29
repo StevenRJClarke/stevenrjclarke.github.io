@@ -84,6 +84,9 @@
     width: 50%;
     color: black;
     text-decoration: none; }
+    @media screen and (max-width: 800px) {
+      .projects-1 a, .projects-4 a, .projects-6 a {
+        width: 100%; } }
 
 .projects-2, .projects-3, .projects-5 {
   -webkit-box-align: center;
